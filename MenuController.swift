@@ -46,13 +46,18 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
         menus.append(Menu(segue: "goToPerfil", Nombre: "Mi Perfil"))
+        menus.append(Menu(segue: "goToHorario", Nombre: "Horario"))
+        
+        
         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToPerfil" {
           let destino  = segue.destination as! PerfilController
-            
+        }
+        if segue.identifier == "goToHorario" {
+          let destino  = segue.destination as! HorarioController
         }
         
         

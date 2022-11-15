@@ -9,7 +9,8 @@ import UIKit
 
 class CeldaPerfilController : UITableViewCell {
     
-    @IBOutlet weak var lblTexto1: UILabel!
     
+    
+    @IBOutlet weak var lblTexto1: UILabel!
     @IBOutlet weak var lblTexto2: UILabel!
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB379E172923E6B4004792B4 /* HorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB379E162923E6B4004792B4 /* HorarioController.swift */; };
+		FB379E192923E966004792B4 /* CeldaHorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB379E182923E966004792B4 /* CeldaHorarioController.swift */; };
+		FB379E1B2923EA11004792B4 /* Horario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB379E1A2923EA11004792B4 /* Horario.swift */; };
 		FB4B27CB291AAA5200517984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B27CA291AAA5200517984 /* AppDelegate.swift */; };
 		FB4B27CD291AAA5200517984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B27CC291AAA5200517984 /* SceneDelegate.swift */; };
 		FB4B27CF291AAA5200517984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B27CE291AAA5200517984 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB379E162923E6B4004792B4 /* HorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioController.swift; sourceTree = "<group>"; };
+		FB379E182923E966004792B4 /* CeldaHorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaHorarioController.swift; sourceTree = "<group>"; };
+		FB379E1A2923EA11004792B4 /* Horario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horario.swift; sourceTree = "<group>"; };
 		FB4B27C7291AAA5200517984 /* Proyecto3P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto3P.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4B27CA291AAA5200517984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4B27CC291AAA5200517984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 				FBD25549291AB02700F351E3 /* Perfil.swift */,
 				FBD25547291AAF6100F351E3 /* PerfilController.swift */,
 				FB4B27E2291AAD2E00517984 /* MenuController.swift */,
+				FB379E162923E6B4004792B4 /* HorarioController.swift */,
+				FB379E182923E966004792B4 /* CeldaHorarioController.swift */,
+				FB379E1A2923EA11004792B4 /* Horario.swift */,
 				FB4B27E0291AAC3000517984 /* CeldaMenuController.swift */,
 				FB4B27DE291AABE200517984 /* Menu.swift */,
 				FB4B27C9291AAA5200517984 /* Proyecto3P */,
@@ -156,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB379E172923E6B4004792B4 /* HorarioController.swift in Sources */,
 				FB4B27CF291AAA5200517984 /* ViewController.swift in Sources */,
+				FB379E192923E966004792B4 /* CeldaHorarioController.swift in Sources */,
 				FBD2554A291AB02700F351E3 /* Perfil.swift in Sources */,
+				FB379E1B2923EA11004792B4 /* Horario.swift in Sources */,
 				FB4B27CB291AAA5200517984 /* AppDelegate.swift in Sources */,
 				FBD25548291AAF6100F351E3 /* PerfilController.swift in Sources */,
 				FB4B27E1291AAC3000517984 /* CeldaMenuController.swift in Sources */,
