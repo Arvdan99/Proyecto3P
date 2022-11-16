@@ -10,7 +10,7 @@ import UIKit
 
 class PerfilController : UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    var Alumno : Alumno?
+    var Alumnos : [Alumno] = []
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -27,17 +27,15 @@ class PerfilController : UIViewController, UITableViewDelegate, UITableViewDataS
     
     //Numero de filas por seccion
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Alumno!.count
+        return Alumnos.count
     }
     
     //Construye cada celda
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaPerfil") as? CeldaPerfilController
-        celda?.lblTexto1.text = Alumno!.[indexPath.row].nombre
-        celda?.lblTexto2.text = Alumno!.[indexPath.row].nombre
-        
-        celda?.lblAño.text = Libro!.ediciones[indexPath.row].año
-       
+        celda?.lblTexto1.text = Alumnos[indexPath.row].nombre
+        celda?.lblTexto2.text = Alumnos[indexPath.row].nombre
+               
         
         
     
@@ -51,9 +49,6 @@ class PerfilController : UIViewController, UITableViewDelegate, UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    
-        
-        Alumnos.append(Alumno(nombre: "DANEY", matricula: "199468", contactoe: "JAVIER", parentesco: "PAPÁ", telefono: "6442011771", telefono1: "199468"))
        
         
     }

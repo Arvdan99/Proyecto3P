@@ -11,7 +11,7 @@
         <!--Menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Proyecto3P" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MenuController" customModule="Proyecto3P" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,6 +67,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="1PK-S7-coJ"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="tVs-SC-qBS"/>
+                                    <outlet property="prefetchDataSource" destination="BYZ-38-t0r" id="wvt-nw-VJV"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -83,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="956.92307692307691" y="8.5308056872037916"/>
         </scene>
-        <!--View Controller-->
+        <!--Horario Controller-->
         <scene sceneID="1Sg-wp-BAK">
             <objects>
-                <viewController id="FCj-dq-CaV" sceneMemberID="viewController">
+                <viewController id="FCj-dq-CaV" customClass="HorarioController" customModule="Proyecto3P" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jvj-YR-WMW">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,6 +134,11 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="FCj-dq-CaV" id="GTl-2h-50X"/>
+                                    <outlet property="delegate" destination="FCj-dq-CaV" id="L96-8J-02l"/>
+                                    <outlet property="prefetchDataSource" destination="FCj-dq-CaV" id="Lv7-jZ-DId"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OJH-ra-b4i"/>
@@ -258,10 +264,10 @@
             </objects>
             <point key="canvasLocation" x="1864.6153846153845" y="1504.2654028436018"/>
         </scene>
-        <!--View Controller-->
+        <!--Perfil Controller-->
         <scene sceneID="iM0-YI-CLE">
             <objects>
-                <viewController id="OcU-yV-Ow2" sceneMemberID="viewController">
+                <viewController id="OcU-yV-Ow2" customClass="PerfilController" customModule="Proyecto3P" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SWD-GB-2qX">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,6 +320,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="OcU-yV-Ow2" id="NVx-Lv-Ueu"/>
                                     <outlet property="delegate" destination="OcU-yV-Ow2" id="fD4-oJ-LJ5"/>
+                                    <outlet property="prefetchDataSource" destination="OcU-yV-Ow2" id="8Q7-2q-jk0"/>
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdg-zp-oiq">

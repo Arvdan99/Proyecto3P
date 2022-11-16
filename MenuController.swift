@@ -11,6 +11,7 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     var menus : [Menu] = []
+    var perfil : [Alumno] = []
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -47,6 +48,11 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         menus.append(Menu(segue: "goToPerfil", Nombre: "Mi Perfil"))
         menus.append(Menu(segue: "goToHorario", Nombre: "Horario"))
+        
+        
+        perfil.append(Alumno(nombre: "DANEY", matricula: "199468", contactoe: "JAVIER", parentesco: "PAPÁ", telefono: "6442011771", telefono1: "199468"))
+
+        
         
         
         
